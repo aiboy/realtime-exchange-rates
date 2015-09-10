@@ -1,0 +1,18 @@
+.symbols_row {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.symbols_row:nth-child(even) {
+    background: white;
+}
+
+.symbols_row:nth-child(odd) {
+    background-color: #EFEFEF;
+}
+
+/* this vialotes BEM consept, but it's a really long story why it's nessesary evil */
+.symbols_row__disabled .button {
+    background: #87CDE8;
+}

@@ -1,0 +1,9 @@
+.rates_column {
+    padding: 10px;
+    border-top: 2px solid lightgray;
+}
+
+.rates_column__last {
+    width: 100px;
+    text-align: right;
+}

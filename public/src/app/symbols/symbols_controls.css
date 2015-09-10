@@ -1,0 +1,9 @@
+.symbols_controls {
+    border-top: 2px solid lightgray;
+    padding: 10px;
+    line-height: 33px;
+}
+
+.symbols_controls .button {
+    float: right;
+}
